@@ -7,7 +7,7 @@ export default function Document() {
       </Head>
       <noscript>
         <iframe src="https://tortenworx-noscript.tortensama.repl.co"
-                frameborder="0"
+                frameBorder="0"
                 style={{
                     position: "fixed",
                     width: "100%",

@@ -1,0 +1,35 @@
+.main_content {
+    padding: 0.75em 0.33em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: 0 6vw;
+    padding: 1em 1.65em;
+    background-color: #fefefe;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border: solid 0.2em #4cc2c4;
+    border-radius: 0.5em;
+}
+
+.thumbnail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+    .thumbnail {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    .card {
+        margin: 0 15vw;
+    }
+}
