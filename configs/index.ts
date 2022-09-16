@@ -8,8 +8,8 @@ export const NavigationRoutes = [
     {
         key: 1,
         name: 'Messages',
-        route: 'https://www.kudoboard.com/boards/zmjVqguK',
-        onsite: true
+        route: 'https://www.kudoboard.com/boards/pjy9FnjN',
+        onsite: false
     },
     {
         key: 2,
