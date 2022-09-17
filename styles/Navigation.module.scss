@@ -42,8 +42,8 @@
     @media only screen and (max-width: 620px) {
         flex-direction: column;
         .navbar_links {
+            gap: 0.5em;
             padding: 0;
         }
     }
 }
-
