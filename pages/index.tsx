@@ -22,6 +22,11 @@ const Home: NextPage = () => {
         <div className={style.card}>
           After dying at the hands of an unfortunate fate, Fumiyo found himself in purgatory waiting to be judged for his actions. unbeknownst to him in order for him to walk across the pearly gates, Fumiyo must reach a minimum amount of wealth accumulated over his life span. Due to his lifestyle prior to his death, he did not meet the requirements. He streams and creates content in hopes of making money to finally be able to reach that light
         </div>
+        <div>
+          <button>Videos</button>
+          <button>Messages</button>
+          <button>Art</button>
+        </div>
       </main>
     </>
   )

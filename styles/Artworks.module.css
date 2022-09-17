@@ -1,0 +1,25 @@
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    padding: 0 10vw;
+    display: grid;
+    grid-row-gap: 8px;
+    grid-column-gap: 5px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 1040px) {
+    .main {
+        grid-template-rows: auto auto;
+    }
+}
