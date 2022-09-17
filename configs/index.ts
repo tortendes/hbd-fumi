@@ -7,14 +7,20 @@ export const NavigationRoutes = [
     },
     {
         key: 1,
-        name: 'Messages',
-        route: 'https://www.kudoboard.com/boards/pjy9FnjN',
-        onsite: false
-    },
-    {
-        key: 2,
         name: 'Video',
         route: '/video',
         onsite: true
     },
+    {
+        key: 2,
+        name: 'Artworks',
+        route: '/art',
+        onsite: true
+    },
+    {
+        key: 3,
+        name: 'Messages',
+        route: 'https://www.kudoboard.com/boards/pjy9FnjN',
+        onsite: false
+    }
 ];
