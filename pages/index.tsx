@@ -10,6 +10,8 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Happy Birthday Fumi!</title>
+        <meta name="description" content="This is the website responsible for all the content generated for Fumi's birthday" />
+        meta
       </Head>
        <div className={style.thumbnail}>
         <Image

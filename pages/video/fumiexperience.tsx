@@ -8,6 +8,7 @@ const VideoExperience: NextPage = (): JSX.Element => {
         <>
             <Head>
                 <title>The Fumi Kiritsugu Experience - Happy Birthday Fumi!</title>
+                <meta name="description" content="This is the website responsible for all the content generated for Fumi's birthday" />
             </Head>
             <div className={styles.main}>
                 <h1>The video isin&apos;t available until atleast Sunday, check back later</h1>
