@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navigation from "../components/Navigation";
 import { Artworks } from "../configs";
-import styles from '../styles/Artworks.module.css'
+import styles from '../styles/Artworks.module.scss'
 
 const ArtPage: NextPage = (): JSX.Element => {
     return  (
