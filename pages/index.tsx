@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>Happy Birthday Fumi!</title>
           <meta name="og:site_name" content="Happy Birthday Fumi!" />
           <meta name="description" content="This is the website responsible for all the content generated for Fumi's birthday" />
-          <meta name="og:title" content="Videos - Happy Birthday Fumi!" />
+          <meta name="og:title" content="Happy Birthday Fumi!" />
           <meta name="og:url" content="https://hbd-fumi.torten.xyz/video" />
           <meta name="og:type" content="website" />
           <meta name="og:image" content="https://hbd-fumi.torten.xyz/fm-static/thumbnail.png" />
