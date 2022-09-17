@@ -13,6 +13,10 @@ const ArtPage: NextPage = (): JSX.Element => {
                 <title>Art - Happy Birthday Fumi!</title>
             </Head>
             <Navigation></Navigation>
+            <div className={styles.notice}>
+                <img src="/alert-circle.svg" alt="" width={24} height={24} style={{ fill: '#fff', color: '#fff' }} />
+                <span>Images takes a while to load, sorry for that.</span>
+            </div>
             <main className={styles.main}>
                 {
                     Artworks.map(image => (

@@ -9,6 +9,16 @@
     justify-content: center;
 }
 
+.notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    margin: 2em 0;
+    font-size: 1.25rem;
+}
+
 .main {
     padding: 0 10vw;
     display: grid;
