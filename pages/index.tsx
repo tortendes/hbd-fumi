@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import style from '../styles/Home.module.scss'
-import Navigation from '../components/Navigation'
 import thumbnail from '../public/fm-static/thumbnail.png'
 
 const Home: NextPage = () => {
@@ -12,8 +11,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Happy Birthday Fumi!</title>
       </Head>
-      <Navigation></Navigation>
-      <div className={style.thumbnail}>
+       <div className={style.thumbnail}>
         <Image
           src={thumbnail}
           alt="The Fumi Kiritsugu Experience Thumbnail"
@@ -34,7 +32,7 @@ const Home: NextPage = () => {
             <button>Artworks</button>
           </Link>
         </div>
-      </main>
+      </main> 
     </>
   )
 }

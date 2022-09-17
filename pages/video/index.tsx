@@ -2,7 +2,6 @@ import { NextPage } from "next";
 import Head from "next/head";
 import Image from 'next/image'
 import Link from 'next/link'
-import Navigation from "../../components/Navigation";
 import style from '../../styles/Video.module.scss'
 import thumbnail1 from '../../public/fm-static/thumbnail.png'
 
@@ -12,7 +11,6 @@ const VideoPage: NextPage = (): JSX.Element => {
             <Head>
                 <title>Video - Happy Birthday Fumi</title>
             </Head>
-            <Navigation />
             <main className={style.main}>
                 <div className={style.card}>
                     <Image src={thumbnail1}

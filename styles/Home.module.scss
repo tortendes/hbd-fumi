@@ -47,6 +47,10 @@
     .thumbnail {
         margin-top: 0;
     }
+    .buttonGroup {
+        overflow-x: auto;
+        gap: 0.25em
+    }
 }
 
 @media only screen and (min-width: 620px) {
