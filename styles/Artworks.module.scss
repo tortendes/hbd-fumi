@@ -61,4 +61,7 @@
         grid-template-rows: auto auto;
         grid-template-columns: auto auto;
     }
+    .image_container div {
+        flex-direction: column;
+    }
 }
