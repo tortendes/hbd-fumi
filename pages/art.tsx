@@ -26,6 +26,14 @@ const ArtPage: NextPage = (): JSX.Element => {
                     Artworks.map(image => (
                         <div className={styles.image_container} key={Math.random()}>
                             <img src={image.src} className={styles.image} alt="Image" />
+                            <div>
+                                <button>
+                                    <a href={image.src} target="_blank" rel="noreferrer">View Image</a>
+                                </button>
+                                <button>
+                                    <a href={image.src} target="_blank" rel="noreferrer" download="image.png">Download Image</a>
+                                </button>
+                            </div>
                         </div>
                     ))
                 }
