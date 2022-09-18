@@ -11,7 +11,7 @@ const VideoExperience: NextPage = (): JSX.Element => {
                 <meta name="description" content="This is the website responsible for all the content generated for Fumi's birthday" />
             </Head>
             <div className={styles.main}>
-                <h1>The video isin&apos;t available until atleast Sunday, check back later</h1>
+                <h1>Available at: sometime today</h1>
                 <Link href="/video" passHref>
                     <button className={styles.button}>
                         Go Back

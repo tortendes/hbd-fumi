@@ -19,7 +19,7 @@ const VideoAnimation: NextPage = (): JSX.Element => {
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
             <div className={styles.main}>
-                <h1>Waiting for Fish to pass the video to me</h1>
+                <h1>Available at: Monday</h1>
                 <Link href="/video" passHref>
                     <button className={styles.button}>
                         Go Back
