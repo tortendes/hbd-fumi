@@ -1,13 +1,23 @@
 
 .main {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    & video {
+        width: 30%;
+        height: 30%;
+        @media only screen and (max-width: 650px) {
+            width: 100%;
+            height: 100%;
+            .button {
+                font-size: 0.8rem;
+            }
+        }
+    }
 }
-.button {
+.main .button {
+    margin: 1em 0.5em;
     padding: 0.75em 1.65em;
     background-color: #0c2041;
     color: #fff;

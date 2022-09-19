@@ -31,7 +31,7 @@
     gap: 0.75em;
     & button {
         padding: 1em 2em;
-        background-color: #4cc2c4;
+        background-color: #0c2041;
         color: #fff;
         border: none;
         font-size: 1rem;
@@ -47,14 +47,17 @@
     .thumbnail {
         margin-top: 0;
     }
-    .buttonGroup {
-        overflow-x: auto;
-        gap: 0.25em
-    }
 }
 
-@media only screen and (min-width: 620px) {
+@media only screen and (max-width: 620px) {
     .card {
         margin: 0 15vw;
+    }
+    .buttonGroup {
+        overflow-x: auto;
+        gap: 0.25em;
+        & button {
+            font-size: 0.8rem;
+        }
     }
 }

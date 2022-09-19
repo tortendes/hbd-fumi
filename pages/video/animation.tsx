@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Link from 'next/link'
-import styles from '../../styles/VideoExperience.module.scss'
+import styles from '../../styles/VideoAnimation.module.scss'
 
 
 const VideoAnimation: NextPage = (): JSX.Element => {
@@ -19,9 +19,10 @@ const VideoAnimation: NextPage = (): JSX.Element => {
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
             <div className={styles.main}>
-                <h1>Available at: Monday</h1>
+                <h1>Fish&apos;s Animation</h1>
+                <video src="/fm-static/Fumi-birthday.mp4" autoPlay loop/>
                 <Link href="/video" passHref>
-                    <button className={styles.button}>
+                    <button type="submit" className={styles.button}>
                         Go Back
                     </button>
                 </Link>
