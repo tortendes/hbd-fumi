@@ -31,7 +31,7 @@ const VideoPage: NextPage = (): JSX.Element => {
                     </Link>
                 </div>
                 <div className={style.card}>
-                    <Image src="https://via.placeholder.com/1920x1080.webp?text=Fishuu's Animation"
+                    <Image src="/fm-static/thumbnail-2.png"
                             alt="Fishuu's Thumbnail"
                             width={1920/5}
                             height={1080/5}
