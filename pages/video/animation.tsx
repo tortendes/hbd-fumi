@@ -21,11 +21,23 @@ const VideoAnimation: NextPage = (): JSX.Element => {
             <div className={styles.main}>
                 <h1>Fish&apos;s Animation</h1>
                 <video src="/fm-static/Fumi-birthday.mp4" autoPlay loop/>
-                <Link href="/video" passHref>
-                    <button type="submit" className={styles.button}>
-                        Go Back
-                    </button>
-                </Link>
+                <div className={styles.buttonGroup}>
+                    <Link href="/video" passHref>
+                        <button type="submit" className={styles.button}>
+                            Go Back
+                        </button>
+                    </Link>
+                    <a href="/fm-static/Fumi-birthday.mp4" download>
+                        <button type="submit" className={styles.button}>
+                            Download MP4
+                        </button>
+                    </a>
+                    <a href="/fm-static/Fumi-birthday.gif" download>
+                        <button type="submit" className={styles.button}>
+                            Download GIF
+                        </button>
+                    </a>
+                </div>
             </div>
         </>
     )

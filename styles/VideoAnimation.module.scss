@@ -23,9 +23,22 @@
     color: #fff;
     border: none;
     font-size: 1rem;
+    font-weight: 100;
     font-family: 'Zilla Slab', Arial, Helvetica, sans-serif;
     border-radius: 8px;
     &:hover {
         cursor: pointer;
+    }
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 640px) {
+    .main .button {
+        font-size: 0.8rem;
     }
 }
