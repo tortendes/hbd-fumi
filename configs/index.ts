@@ -68,4 +68,16 @@ export const Artworks = [
     {
         src: '/fm-static/artworks/15.webp'
     },
+    {
+        src: '/fm-static/artworks/15.webp'
+    },
+    {
+        src: '/fm-static/artworks/16.webp'
+    },
+    {
+        src: '/fm-static/artworks/17.webp'
+    },
+    {
+        src: '/fm-static/artworks/18.webp'
+    },
 ]
