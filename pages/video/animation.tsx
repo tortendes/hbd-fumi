@@ -20,7 +20,7 @@ const VideoAnimation: NextPage = (): JSX.Element => {
             </Head>
             <div className={styles.main}>
                 <h1>Fish&apos;s Animation</h1>
-                <video src="/fm-static/Fumi-birthday.mp4" autoPlay loop/>
+                <video src="/fm-static/Fumi-birthday.mp4" autoPlay muted loop/>
                 <div className={styles.buttonGroup}>
                     <Link href="/video" passHref>
                         <button type="submit" className={styles.button}>
